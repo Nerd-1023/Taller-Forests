@@ -4,7 +4,7 @@
     "decorators": [
       {
         "type": "minecraft:beehive",
-        "probability": 0.002
+        "probability": 0.05
       }
     ],
     "dirt_provider": {
@@ -22,7 +22,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_leaves",
+        "Name": "minecraft:birch_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
@@ -40,14 +40,14 @@
     },
     "trunk_placer": {
       "type": "minecraft:straight_trunk_placer",
-      "base_height": 5,
-      "height_rand_a": 3,
+      "base_height": 6,
+      "height_rand_a": 2,
       "height_rand_b": 2
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_log",
+        "Name": "minecraft:birch_log",
         "Properties": {
           "axis": "y"
         }
